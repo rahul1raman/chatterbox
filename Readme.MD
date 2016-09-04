@@ -9,6 +9,17 @@ For a quicker setup, please import [this] file to phpmyadmin.
 >-  A clean UI for a public chat room experience.  
 >- Passwords are stored as hashed output of SHA-256 with a randomly generated salt value.
 >- Login/Sign up/Log out feature added.
+>- Support for unicode (UTF-8) content types.
+>- Easy integration into existing authentication systems.
+>- Separation of layout and code.
+>- Persistent client-side settings.
+>- Automatic adjustment of displayed time to local client timezone.
+
+###**REQUIREMENTS**:
+| *Server-Side*          | *Client-Side*                | 
+| ---------------------- | ---------------------------- |
+| PHP >= 5               | Enabled JavaScript           |
+| MySQL >= 4             | AJAX supported by browser    |
 
 
 ###**TABLE STRUCTURES**:
